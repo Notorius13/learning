@@ -1,0 +1,35 @@
+
+.content {
+  position: relative;
+  top: -3.75rem;
+  margin-left: 0.6875rem;
+}
+section:first-child {
+  padding-top: 7rem;
+}
+@media screen and (min-width: 800px) {
+  .feature {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin-bottom: 10rem;
+    padding: 1rem 0;
+    padding-right: 4rem;
+    border-right: 0.75rem solid rgb(226, 43, 165);
+  }
+  .feature figure {
+    flex: 7;
+  }
+  .feature .content {
+    flex: 3;
+  }
+  .content {
+    position: static;
+  }
+  .feature:nth-child(even) {
+    flex-direction: row-reverse;
+    border-left: 0.75rem solid rgb(226, 43, 165);
+    border-right: none;
+    padding-left: 4rem;
+  }
+}

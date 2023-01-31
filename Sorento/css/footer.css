@@ -1,0 +1,124 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.us h3 {
+  color: rgb(226, 43, 165);
+  text-shadow: 1px 1px 0 #000;
+}
+#about-us {
+  padding: 6rem 0;
+}
+.aboutus {
+  margin-top: 4rem;
+  padding-left: 2rem;
+}
+.links {
+  margin-top: 0rem;
+}
+.newslatter {
+  padding-left: 2rem;
+}
+.us p {
+  margin-bottom: 3rem;
+  padding: 0;
+  padding-top: 1rem;
+  text-shadow: 1px 1px 0 black;
+}
+
+.links i {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  transition: 0.6s all;
+}
+.links i:hover,
+.links i:active,
+.links i:focus {
+  background-color: rgb(151, 150, 150);
+  border-radius: 5px;
+}
+.links h3 {
+  padding-left: 2rem;
+}
+button {
+  background-color: #fff;
+  padding: 0.6rem 2rem;
+  margin-left: 0.8rem;
+  margin-top: 1rem;
+  /* display: block; */
+  transition: 0.6s all;
+}
+button:hover,
+button:active,
+button:focus {
+  background-color: rgb(151, 150, 150);
+}
+input {
+  background-color: #fff;
+  width: 8rem;
+  height: 2.2rem;
+  margin-top: 0.5rem;
+  padding: 0rem 0.5rem;
+}
+.post-footer {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.post-footer p {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+  .us {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  .us h3 {
+    color: rgb(226, 43, 165);
+    text-shadow: 1px 1px 0 #000;
+  }
+  .us p {
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    text-shadow: 1px 1px 0 black;
+  }
+  button {
+    background-color: #fff;
+    padding: 0.6rem 2rem;
+    margin-left: 0.5rem;
+  }
+  input {
+    background-color: #fff;
+    width: 8rem;
+    height: 2.2rem;
+    padding: 0rem 0.5rem;
+    margin: 0;
+  }
+
+  .aboutus {
+    margin-top: 10rem;
+    padding-left: 2rem;
+  }
+  .post-footer {
+    text-align: right;
+    padding-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 362px) {
+  button {
+    background-color: #fff;
+    padding: 0.6rem 2rem;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    /* display: block; */
+  }
+  input {
+    background-color: #fff;
+    width: 8rem;
+    height: 2.2rem;
+    margin-left: 1.4rem;
+    margin-top: 0.5rem;
+    padding: 0rem 0.5rem;
+  }
+}

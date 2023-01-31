@@ -1,0 +1,74 @@
+header {
+  height: 100vh;
+  background: url(../img/cover-logo.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-position: 10% 50%;
+  background-attachment: fixed;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-end;
+  box-sizing: content-box;
+}
+body:after {
+  content: "";
+  position: fixed; /* stretch a fixed position to the whole screen */
+  top: 0;
+  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -1; /* needed to keep in the background */
+  background: url(../img/black-1072366_1920.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-nav {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main-nav {
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 2;
+  top: 0px;
+}
+
+.main-nav ul {
+  font-size: clamp(0.5rem, 6.5vw, 2.05rem);
+  display: flex;
+  gap: clamp(0.5rem, 4vw, 2rem);
+  margin: 0rem 0;
+}
+
+.main-nav a {
+  display: block;
+  padding-top: 0.7rem;
+  padding-bottom: 0.35rem;
+  text-decoration: none;
+}
+
+.main-nav a:hover,
+.main-nav a:active,
+.main-nav a:focus {
+  text-decoration: underline;
+}
+
+.main-nav li {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20vw;
+  text-align: left;
+}
+.logo img {
+  margin-left: 2rem;
+}
+@supports (-webkit-touch-callout: none) {
+  header {
+    background-attachment: scroll;
+  }
+}
