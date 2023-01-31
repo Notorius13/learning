@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/402711c56d.js"
+      crossorigin="anonymous"></script>
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="container group">
+        <div class="form">
+          <form action="#" method="get">
+            <label for="name">
+              <input
+                class="name"
+                type="text"
+                name="meno"
+                placeholder="Name"
+                required />
+            </label>
+            <label for="email">
+              <input
+                class="email"
+                type="email"
+                name="mail"
+                placeholder="Mail"
+                required />
+            </label>
+            <label for="message">
+              <textarea
+                style="resize: none"
+                class="msg"
+                name="message"
+                rows="6"
+                placeholder="Messages"
+                required></textarea>
+            </label>
+            <div class="btn">
+              <button class="one">Send</button>
+              <input class="two" type="reset" value="Reset" />
+            </div>
+          </form>
+        </div>
+        <aside class="social">
+          <div class="box1">
+            <h2 class="adress">
+              <i class="fa-solid fa-house-flag"></i>Mailing Adress
+            </h2>
+            <p>
+              97405 Malachov, <br />
+              Ortútska cesta <br />
+              402/272 <br />
+              Slovakia
+            </p>
+          </div>
+          <div class="box">
+            <h2 class="soc"><i class="fa-regular fa-comment"></i>Social</h2>
+            <p class="link">
+              <a href="https://facebook.com">Facebook</a><br />
+              <a href="https://twitter.com">Twitter</a><br />
+              <a href="https://linkedin.com">Linkedin</a>
+            </p>
+          </div>
+          <div class="box2">
+            <h2 class="mail"><i class="fa-regular fa-envelope"></i>Email</h2>
+            <p class="posta">
+              <a href="mailto:jan.oleriny@janoleriny.eu">
+                jan.oleriny@janoleriny.eu</a
+              >
+            </p>
+          </div>
+          <div class="box3">
+            <h2 class="phone"><i class="fa-solid fa-phone"></i> Phone</h2>
+            <p class="phones">
+              <a href="tel:09XX XXX XXX">09XX xxx xxx</a>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>
